@@ -2,7 +2,7 @@ import React from 'react'
 
 const QuickInfo = () => {
     return (
-        <div className='pl-6 '>
+        <div>
             <h2 >Quick Info</h2>
 
             <table className="table-auto border border-slate-500">
@@ -13,16 +13,28 @@ const QuickInfo = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td className="border border-slate-700">Indiana</td>
-                        <td className="border border-slate-700">Indianapolis</td>
+                        <td className="border border-slate-700">Name</td>
+                        <td className="border border-slate-700">Benson P Xavier</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-700">Ohio</td>
-                        <td className="border border-slate-700">Columbus</td>
+                        <td className="border border-slate-700">Born</td>
+                        <td className="border border-slate-700">1st Jan, 1998</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-700">Michigan</td>
-                        <td className="border border-slate-700">Detroit</td>
+                        <td className="border border-slate-700">Education</td>
+                        <td className="border border-slate-700">B.Tech</td>
+                    </tr>
+                    <tr>
+                        <td className="border border-slate-700">Alma mater</td>
+                        <td className="border border-slate-700">National Institute Of Technology, Raipur</td>
+                    </tr>
+                    <tr>
+                        <td className="border border-slate-700">Nationality</td>
+                        <td className="border border-slate-700">Indian</td>
+                    </tr>
+                    <tr>
+                        <td className="border border-slate-700">Occupation</td>
+                        <td className="border border-slate-700">Software Developer</td>
                     </tr>
                 </tbody>
             </table>
@@ -31,19 +43,3 @@ const QuickInfo = () => {
 }
 
 export default QuickInfo
-
-{/* <table className='table-auto'>
-                <thead>
-                    <tr>
-                        <th colspan="2">Quick Info</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><th scope="row">Name</th><td>Benson P Xavier</td></tr>
-                    <tr><th scope="row">Born</th><td><time datetime="1998-01-01 08:50">1 January, 1998</time></td></tr>
-                    <tr><th scope="row">Education</th><td>B.Tech</td></tr>
-                    <tr><th scope="row">Alma mater</th><td>National Institute Of Technology, Raipur</td></tr>
-                    <tr><th scope="row">Nationality</th><td>Indian</td></tr>
-                    <tr><th scope="row">Occupation</th><td>Software Developer</td></tr>
-                </tbody>
-            </table> */}

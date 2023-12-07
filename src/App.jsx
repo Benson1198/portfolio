@@ -7,14 +7,11 @@ import Projects from './components/Projects'
 const App = () => {
 
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center h-screen min-h-screen'>
       <AboutMe />
       <QuickInfo />
       <Projects />
     </div>
-    // Skills
-    // Links
-    // 
   )
 }
 
