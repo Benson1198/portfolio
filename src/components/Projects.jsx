@@ -8,7 +8,28 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
-const cards = [1, 2, 3];
+const cards = [{
+    title: "AI SUMMARIZER",
+    desc: "A website to extract and summarize news/article from a URL with help of GPT",
+    link: "https://gentle-swan-c1b2b7.netlify.app/",
+    github: "",
+    image: ""
+},
+
+{
+    title: "DALL - E",
+    desc: "An AI Image generation website, with community sharing feature",
+    link: "https://gentle-swan-c1b2b7.netlify.app/",
+    github: "",
+    image: ""
+},
+{
+    title: "E-COMMERCE WEBSITE",
+    desc: "A fully functional E -Commerce website with user and guest checkout capabilities",
+    link: "https://github.com/Benson1198/Ecommerce-django",
+    github: "",
+    image: ""
+}];
 
 export default function Projects() {
     return (
@@ -39,8 +60,8 @@ export default function Projects() {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small">View</Button>
-                                    <Button size="small">Edit</Button>
+                                    <Button size="small">Website</Button>
+                                    <Button size="small">Github</Button>
                                 </CardActions>
                             </Card>
                         </Grid>
