@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'space': "url('/src/assets/space.jpg')",
+        'space': "url('/src/public/assets/space.jpg')",
       }
     },
   },

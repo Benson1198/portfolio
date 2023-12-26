@@ -3,6 +3,7 @@ import AboutMe from './components/AboutMe'
 import QuickInfo from './components/QuickInfo'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Resume from './components/Resume'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <QuickInfo />
       <Skills />
       <Projects />
+      <Resume />
     </div>
   )
 }
