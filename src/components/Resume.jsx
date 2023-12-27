@@ -17,6 +17,7 @@ const Resume = () => {
 
     return (
         <Container fixed>
+            <h2 className='text-center text-white text-5xl p-6 font-mono'>RESUME</h2>
             <Document file={file} className="flex justify-center">
                 <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
             </Document>

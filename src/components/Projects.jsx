@@ -35,7 +35,7 @@ export default function Projects() {
     return (
         <main>
             <Container sx={{ py: 8 }} maxWidth="md">
-                <h2 className='text-center text-white text-2xl p-6'>Projects</h2>
+                <h2 className='text-center text-white text-5xl p-6 font-mono'>PROJECTS</h2>
                 <Grid container spacing={4}>
                     {cards.map((card) => (
                         <Grid item key={card} xs={12} sm={6} md={4}>

@@ -3,8 +3,7 @@ import React from 'react'
 const QuickInfo = () => {
     return (
         <div>
-            <h2 className='text-center text-white text-2xl p-6'>Quick Info</h2>
-
+            <h2 className='text-center text-white text-5xl p-6 font-mono'>QUICK INFO</h2>
             <table className="table-auto border border-slate-500">
                 <tbody>
                     <tr>

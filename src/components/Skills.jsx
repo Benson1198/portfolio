@@ -10,8 +10,7 @@ const skillList = ['React.js', 'Django', 'Python', 'JavaScript', 'C++', 'HTML/CS
 export default function Skills() {
     return (
         <div>
-            <h2 className='text-center text-white text-2xl p-6'>Skills</h2>
-            <Container maxWidth="lg">
+            <h2 className='text-center text-white text-5xl p-6 font-mono'>SKILLS</h2>            <Container maxWidth="lg">
                 <Grid container spacing={2}>
                     {skillList.map((skill, index) => (
                         <Grid item xs={4} key={index}>

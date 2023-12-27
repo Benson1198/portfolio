@@ -6,7 +6,7 @@ import AboutMe from './AboutMe';
 
 const Home = () => {
     return (
-        <div>
+        <div className='flex flex-col items-center justify-center'>
             <AboutMe />
             <QuickInfo />
             <Skills />
