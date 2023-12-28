@@ -11,7 +11,7 @@ import Container from '@mui/material/Container';
 const cards = [{
     title: "AI SUMMARIZER",
     desc: "A website to extract and summarize news/article from a URL with help of GPT",
-    link: "https://gentle-swan-c1b2b7.netlify.app/",
+    link: "https://shiny-squirrel-4168dc.netlify.app/",
     github: "https://github.com/Benson1198/AI-Summarizer",
     image: "/assets/ai_summarizer.png"
 },
