@@ -4,11 +4,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Container } from '@mui/material';
 import Resume from './components/Resume';
 import Home from './components/Home';
+import "./App.css"
+import Particle from './components/Particle';
 
 const App = () => {
   return (
     <Router>
-      <div className='bg-fixed bg-cover bg-no-repeat bg-gradient-to-r from-[#150832] to-[#5e0952]'>
+      <div className='body'>
+        <Particle />
         <AppBar position="static" style={{ background: 'transparent', boxShadow: '3' }}>
           <Toolbar>
             <Typography variant="h5" component={Link} to="/" sx={{
@@ -32,7 +35,7 @@ const App = () => {
           </Toolbar>
         </AppBar>
 
-        <Container>
+        <Container style={{ position: 'relative', zIndex: 1 }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/resume" element={<Resume />} />

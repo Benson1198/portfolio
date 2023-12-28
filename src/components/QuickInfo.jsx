@@ -4,7 +4,7 @@ const QuickInfo = () => {
     return (
         <div className='text-white text-xl'>
             <h2 className='text-center text-white text-5xl p-6 font-mono'>QUICK INFO</h2>
-            <table className="table-auto border-separate border-spacing-2 border border-slate-500">
+            <table className="table-auto border-separate border-spacing-2 border border-[#191129] bg-[#191129]">
                 <tbody>
                     <tr>
                         <td className="border border-slate-700">Name</td>
