@@ -11,10 +11,6 @@ const QuickInfo = () => {
                         <td className="border border-slate-700">Benson P Xavier</td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-700">Born</td>
-                        <td className="border border-slate-700">1st Jan, 1998</td>
-                    </tr>
-                    <tr>
                         <td className="border border-slate-700">Education</td>
                         <td className="border border-slate-700">B.Tech</td>
                     </tr>
