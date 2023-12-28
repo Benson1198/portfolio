@@ -19,8 +19,6 @@
     "react-particles": "^2.12.2",
     "react-pdf": "^7.6.0",
     "react-router-dom": "^6.21.1",
-    "react-tsparticles": "^2.12.2",
-    "tsparticles": "^3.0.3",
     "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
